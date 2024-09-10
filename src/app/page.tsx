@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs"
 import FeaturedProperties from "@/components/FeaturedProperties"
 import Hero from "@/components/Hero"
 import HowItWorks from "@/components/HowItWorks"
@@ -12,6 +13,7 @@ export default function Home() {
       <HowItWorks />
       <FeaturedProperties />
       <Services />
+      <AboutUs />
     </>
   )
 }
