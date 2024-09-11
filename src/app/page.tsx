@@ -1,5 +1,7 @@
 import AboutUs from "@/components/AboutUs"
+import Faq from "@/components/Faq"
 import FeaturedProperties from "@/components/FeaturedProperties"
+import Footer from "@/components/Footer"
 import Hero from "@/components/Hero"
 import HowItWorks from "@/components/HowItWorks"
 import Navbar from "@/components/Navbar"
@@ -16,6 +18,8 @@ export default function Home() {
       <Services />
       <AboutUs />
       <Testimonials />
+      <Faq /> 
+      <Footer />
     </>
   )
 }
